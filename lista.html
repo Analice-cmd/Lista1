@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista1</title>
+</head>
+<body>
+    <h1>Formulario</h1>
+    <form>
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <label for="iptNome">Nome:</label><input type="text" id="iptNome"><br>
+            <label for="iptDate">Data de Nascimento:</label><input type="date" id="iptDate"><br>
+            <label for="iptEnd">Endereço:</label><input type="text" id="iptEnd"><br>
+            <label for="iptBar">Bairro:</label><input type="text" id="iptBar">
+            <label for="iptCid">Cidade</label><input type="text" id="iptCid"><br>
+            <label for="iptCep">Cep:</label><input type="number" id="iptCep">
+            Estado:
+            <select id="iptEstado">
+            <option value="CE">Ceara</option><br>
+            <option value="SP">São Paulo</option>
+            <option value="RJ">Rio de Janeiro</option>
+            </select><br>
+        </fieldset>
+        <fieldset>
+            <legend>Dados Profissionais</legend>
+            Natureza do Cargo:<br>
+            <input type="radio" id="iptNS" value="0" checked> Gerencia       
+            <input type="radio" id="iptNS" value="1"> Financeiro
+            <input type="radio" id="iptNS" value="2"> Recepçao 
+            <input type="radio" id="iptNS" value="3"> Administrativo
+            <input type="radio" id="iptNS" value="4">Juridico<br>
+            
+            Area de Interresse:<br>
+            <input type="radio" id="iptNS" value="0">Computaçao
+            <input type="radio" id="iptNS" value="1">Quimica
+            <input type="radio" id="iptNS" value="2">Meio Ambiente
+            <input type="radio" id="iptNS" value="3">Engenheria
+            <input type="radio" id="iptNS" value="4">Matematica<br>
+
+            <label for="iptcomen">Mini-Curriculo</label>
+            <textarea id="comen" rows="10" cols="100"></textarea>
+        
+
+        </fieldset>
+
+       <input type="button" value="Enviar">
+       <input type="reset" value="Limpar">
+
+
+
+
+    </form>
+</body>
+</html>
